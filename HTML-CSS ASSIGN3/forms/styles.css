@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    background-color: darkcyan;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color:salmon;
+}
+p{
+    font-size: xx-large;
+}
+.form-rows {
+    position: static;
+    display: block;
+}
+.fields {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+}
+.labels {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+  }
+.input-fields {
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+}  
+.button {
+    font-size: 1em;
+    background-color: #6ba2ce;
+    color: white;
+    border: 0px solid;
+    border-radius: 4px;
+    height: 40px;
+    width: 80px;
+    margin: 10px;
+  }
+.button:hover{
+    font-size: 1.1em;
+    background-color: skyblue;
+}

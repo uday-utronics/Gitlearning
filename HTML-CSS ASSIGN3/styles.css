@@ -1,0 +1,55 @@
+body{
+    background-color: darkslategray;
+}
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    background-color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+#htext{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: beige;
+    text-shadow: 0.2em;
+
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: cadetblue;
+    font-size: xx-large;
+}
+.matter{
+
+    background-color: darkgrey;
+}
+.matter ul li{
+    color: cornsilk;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+.quotef{
+    display: block;
+    color: peachpuff;
+    background-color: snow;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+.footer{
+    color: cornsilk;
+    background-color: darksalmon;
+    text-align: center;
+    font-family:cursive;
+}
+.footer a:hover{
+    color:skyblue;
+}

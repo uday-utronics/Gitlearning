@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div>
+            <form id="myform">
+                <p><label>Name: <input type="text" name="name" placeholder="your name" required></label></p>
+                <p><label for="email">Email:<input type="email" name="email" placeholder="email" required></label></p>
+                <fieldset>
+                 <legend> Pizza Size </legend>
+                 <p><label> <input type=radio name=size> Small </label></p>
+                 <p><label> <input type=radio name=size> Medium </label></p>
+                 <p><label> <input type=radio name=size> Large </label></p>
+                </fieldset>
+                <fieldset>
+                    <legend> Pizza Toppings </legend>
+                    <p><label> <input type=checkbox> Bacon </label></p>
+                    <p><label> <input type=checkbox> Extra Cheese </label></p>
+                    <p><label> <input type=checkbox> Onion </label></p>
+                    <p><label> <input type=checkbox> Mushroom </label></p>
+                   </fieldset>
+                <fieldset><legend>HOW DO YOU WANT TO OREDER:</legend>
+                <p><label for="order-type">
+                    <input type=radio name=del>delivery
+                    <input type=radio name=del>pick-up
+                </label></p>
+                </fieldset>
+                   <p><label>Preferred delivery time: <input type=time min="11:00" max="21:00" step="900"></label></p>
+                   <p><label>Address: </label></p>
+                   <p><textarea style="height: 100px; width: 400px;"></textarea></p>
+                   <p><button id="submit">Submit order</button>
+                     <button id="reset">reset</button> <button id="summary">show summary</button></p>
+                </form>
+                <table id="mytable">
+
+                </table>
+
+
+        </div>
+        <script src="script.js"></script>
+
+
+    </body>
+</html>
